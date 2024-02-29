@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.container {
+    background-color: #ffd742;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    box-shadow: 0px 2px 0px 0px;
+    border-radius: 40px;
+
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin-top: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+h2{
+    color: red;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+}
+label {
+    margin-bottom: 5px;
+}
+select {
+    margin-bottom: 10px;
+    width: 200px;
+}
+#ajouter-panier {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; 
+   
+}
+#panier-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+#ajouter-panier{ 
+    background-color: red;
+    border-radius: 50px;
+    margin-left:40px;
+}
+
+#image_tacos{
+    width: 700px;
+    margin-right: 40px;
+}

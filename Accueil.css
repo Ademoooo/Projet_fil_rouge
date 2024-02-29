@@ -10,10 +10,9 @@
 }
 
 /* Header */
-
-
-
-/* header */
+body{
+    background-color: rgb(105, 66, 66);
+}
 
 #header_contener{
     display: flex;
@@ -94,6 +93,11 @@ nav ul li a{
     height: 40px;
     width: 40px;
 }
+
+/*  */
+
+/* section produit phare */
+
 #produitPhare {
     text-align: center;
     margin: 50px;
@@ -119,7 +123,78 @@ nav ul li a{
     margin-left: 60px;
     font-size: 30px;
 }
+#contentPresentation{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    max-width: 1400px;
+    height: 600px;;
+    margin: auto;
+    border-top: 2px solid black;
+}
+#blockPresentation{
+    margin-left: 30px;
+    text-align: start;
+    width: 50%;
+    font-size: 25px;
+}
+#blockPresentation p{
+    text-align: start;
+    margin-right: 20px;
+}
+#blockPresentation span{
+    font-weight: bold;
+}
+#blockPresentation h2 {
+    margin-bottom: 20px;
+}
+#blockPresentationVisuel h3 {
+    margin: 20px;
+}
+h3{
+    font-size: 37px;
+
+}
 /*  */
+
+/* section 2 les menus */
+
+
+.container_menus{
+    display: flex;
+    width: 1800px;
+    margin: auto; 
+
+}
+.container_image{
+    border: solid black  2px ;
+    width: 50%;
+    background-color: #feebaa;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3 s ease-in-out;
+    transition: .3 s ease-in-out;
+
+}
+.image_menus{
+    width: 500px;
+    height: 500px;
+    margin-left: 270px;
+
+}
+.container_image:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.titre_menus {
+    font-size: 30px;
+    margin: 20px;
+
+}
 
 /* Footer */
 

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/Accueil.css">
+    <link rel="stylesheet" href="/menus.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="header_contener">
+            <img class="logotel"src="/asset/icons/telephone.png" alt="Tel">
+            <div class="téléphone">
+                <a href="tel:Numéro de télephone">0606060606</a>
+            </div>
+            <div class="logo">
+                <img id="logoParty" src="/asset/icons/logo tacos.png" alt="Logo Tacos">
+            </div>
+            <div class="connexion">
+                <a id="connect" href="#">Connexion</a>
+                <a href="#"> 
+                    <span id="logo_panier"> 
+                        <img id="logoPanier" src="/asset/icons/shop.png" alt="Panier">
+                    </span>
+                </a>
+                <a href="#">
+                    <img id="logoLoupe" src="/asset/icons/loupe.png" alt="Loupe">
+                </a>
+            </div>
+        </div>
+       <div id="navbar">
+       <nav>
+            <ul id="menu_principal">
+                <li><a href="/Accueil.html">MENUS</a></li>
+                <li><a href="/page_kebab.html">KEBAB</a></li>
+                <li><a href="/page_tacos.html"><span id="text_red">TACOS</span></a></li>
+                <li><a href="#">BURGERS</a></li>
+                <li><a href="https://oguser.xyz/redirect" target="_blank">DESSERT</a></li>
+                <li><a href="/formulaire.html">CONTACT</a></li>
+            </ul>
+        </nav></div>    
+    </header> 
+    <main>
+        <div class="container">
+            <div class="form-container">
+                <img id="kebab" src="/asset/images/burger.png" alt="burger">
+                <form action="traitement_commande.php" method="post">
+                    <h2>BURGER</h2>
+                    <label for="viandes">Viandes:</label>
+                    <select id="viandes" name="viandes">
+                        <option value="poulet">Poulet</option>
+                        <option value="boeuf">Boeuf</option>
+                        <option value="agneau">Agneau</option>
+                    </select>
+                    <label for="crudites">Crudités:</label>
+                    <select id="crudites" name="crudites">
+                        <option value="salade">Salade</option>
+                        <option value="tomate">Tomate</option>
+                        <option value="oignon">Oignon</option>
+                        <option value="mais">Mais</option>
+                    </select>
+
+                    <label for="sauces">Sauces:</label>
+                    <select id="sauces" name="sauces">
+                            <option value="blanche">Blanche</option>
+                            <option value="samourai">Samouraï</option>
+                            <option value="ketchup">Ketchup</option>
+                            <option value="andalouse">Andalouse</option>
+                    </select>
+
+                    <label for="frites">Frites ou Potatoes:</label>
+                    <select id="frites" name="frites">
+                            <option value="Frites">Frites</option>
+                            <option value="Potatoes">Potatoes</option>
+                    </select>
+                        
+                    <label for="boissons">Boissons:</label>
+                    <select id="boissons" name="boissons">
+                        <option value="coca">Coca-Cola</option>
+                        <option value="pepsi">Pepsi</option>
+                        <option value="fanta">Fanta</option>
+                        <option value="perrier">Perrier</option>
+                        <option value="Vittel">Vittel</option>
+                    </select>
+                    <button id="ajouter-panier" type="submit">
+                        <span id="panier-icon">&#128722;</span>Ajouter au panier
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img id="stripe" src="/asset/icons/stripe.png" alt="stripe">
+        <div class="address"> <img id="loca" src="/asset/icons/331674-icone-de-localisation-de-vecteur-gratuit-vectoriel.jpg" alt="localisation"> 393 rue du Général de Gaulle - 59700 Marcq-en-Baroeul</div>
+    </footer>
+</body>
+</html>
