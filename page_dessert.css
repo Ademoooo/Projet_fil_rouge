@@ -1,0 +1,26 @@
+p{
+    font-weight: bold;
+    font-size: 30px;
+}
+body {
+    line-height: 1.42857;
+    color: #767676;
+    background: #edecec;
+    height: 100%;
+    position: relative;
+    padding: 82px 40px 0 40px !important;
+}
+#connexion{
+    display: flex;
+}
+a{
+    width: 30%;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+}
+#trouveLaSolution input{
+    width: 200px;
+}
