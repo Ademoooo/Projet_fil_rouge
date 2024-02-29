@@ -8,6 +8,9 @@
     font-family: roboto;
     src: url(./fonts/Roboto-Medium.ttf);
 }
+
+/* Header */
+
 #header_contener{
     display: flex;
     justify-content: space-between;
@@ -112,4 +115,38 @@ nav ul li a{
     margin-left: 60px;
     font-size: 30px;
 }
+/*  */
 
+/* Footer */
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#stripe {
+    height: 50px;
+    width: 150px;
+}
+#loca{
+    height: 30px;
+    width: 30px;
+    margin-right: 05px;
+  
+    
+}
+.address { 
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
