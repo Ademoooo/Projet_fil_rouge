@@ -11,7 +11,7 @@
 
 /* Header */
 body{
-    background-color: rgb(105, 66, 66);
+    background-color: rgba(108, 76, 57, 0.695);
 }
 
 #header_contener{
@@ -102,6 +102,16 @@ nav ul li a{
     text-align: center;
     margin: 50px;
     font-size: 40px;
+    font-size: 36px; /* Taille du titre */
+    animation: breathe 1s infinite alternate; /* Animation de respiration */
+}
+@keyframes breathe {
+    from {
+        font-size: 30px; /* Taille de départ */
+    }
+    to {
+        font-size: 45px; /* Taille maximale */
+    }
 }
 #titreTacosAvocat{
     color: red; 
@@ -159,36 +169,34 @@ h3{
 
 /* section 2 les menus */
 
-
+#border_top{
+    border-top: 2px black solid;
+    max-width: 1400px;
+    margin: auto;
+}
 .container_menus{
     display: flex;
-    width: 1800px;
-    margin: auto; 
-
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
 }
 .container_image{
     border: solid black  2px ;
-    width: 50%;
     background-color: #feebaa;
     border-radius: 15px;
     margin: 15px;
     display: flex;
     flex-direction: column;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3 s ease-in-out;
-    transition: .3 s ease-in-out;
-
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Animation de transition */
+}
+.container_image img:hover {
+    transform: scale(1.1); /* Effet de zoom au survol */
 }
 .image_menus{
-    width: 500px;
-    height: 500px;
-    margin-left: 270px;
-
-}
-.container_image:hover{
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
 }
 .titre_menus {
     font-size: 30px;
