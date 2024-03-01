@@ -10,9 +10,6 @@
 }
 
 /* Header */
-body{
-    background-color: rgba(108, 76, 57, 0.695);
-}
 
 #header_contener{
     display: flex;
@@ -65,6 +62,8 @@ nav{
 }
 nav ul {
     background-color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px;
     margin: 0;
     padding: 15px;
     display: flex;
@@ -140,9 +139,11 @@ nav ul li a{
     max-width: 1400px;
     height: 600px;;
     margin: auto;
-    border-top: 2px solid black;
+    border-top: 3px solid black;
+    margin-top: 50px;
 }
 #blockPresentation{
+    margin-top: 20px;
     margin-left: 30px;
     text-align: start;
     width: 50%;
@@ -170,7 +171,7 @@ h3{
 /* section 2 les menus */
 
 #border_top{
-    border-top: 2px black solid;
+    border-top: 3px black solid;
     max-width: 1400px;
     margin: auto;
 }
@@ -179,10 +180,31 @@ h3{
     justify-content: center;
     max-width: 1400px;
     margin: auto;
+    margin-top: 50px;
+    animation-duration: 3s;
+    animation-name: anime;
 }
+@keyframes anime {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 13%;
+        width: 100%;
+    }
+}
+.container_menusDeux{
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
 .container_image{
     border: solid black  2px ;
-    background-color: #feebaa;
+    background-color: #ffeeac;
     border-radius: 15px;
     margin: 15px;
     display: flex;
@@ -209,6 +231,8 @@ h3{
 
 footer {
     background-color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
