@@ -92,7 +92,21 @@ nav ul li a{
     height: 40px;
     width: 40px;
 }
-
+@media screen and (max-width: 680px) {
+    .téléphone,.logotel, #connect{
+        display: none;
+        justify-content: space-between;
+    }
+    #logoParty{
+        width: 282px;
+        height: auto;
+    }
+    #menu_principal{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+}
 /*  */
 
 /* section produit phare */
@@ -169,6 +183,32 @@ h3{
     font-size: 37px;
 
 }
+@media screen and (max-width: 680px) {
+    *{
+        margin: auto;
+    }
+
+    #produitPhare,#img_avocat{
+        display: none;
+    }
+    #produitPhare{
+        width: 70px;
+        height: 50px;
+    }
+    #blockPhare{
+        flex-direction: column;
+    }
+    #titreTacosAvocat{
+        font-size: 20px;
+    }
+    #header_contener{
+        flex-direction: column;
+    }
+    #logo_panier{
+        border-left: none;
+    }
+    
+}
 /*  */
 
 /* section 2 les menus */
@@ -244,6 +284,19 @@ h3{
 #radius{
     border-radius: 5px;
 }
+@media screen and (max-width: 680px){
+    .container_menus, .container_menusDeux{
+        flex-direction: column;
+        max-width: 680px;
+    }
+    .listIngrediants li{
+        font-size: 15px;
+    }
+    #listIngrediants{
+        font-size: 15px;
+    }
+
+}
 
 /* Footer */
 
@@ -276,6 +329,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 680px) {
+    #blockPresentation p {
+        font-size: 10px;
+    }
+    
 }
 
 /*  */
