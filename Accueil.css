@@ -186,7 +186,7 @@ h3{
 }
 @keyframes anime {
     from{
-        margin-left: 100%;
+        margin: 100%;
         width: 300%;
     }
     to{
@@ -194,14 +194,26 @@ h3{
         width: 100%;
     }
 }
-.container_menusDeux{
+.container_menusDeux{ 
     display: flex;
     justify-content: center;
     max-width: 1400px;
     margin: auto;
     margin-top: 50px;
+    animation-duration: 3s;
+    animation-name: anime2;
+   
 }
-
+@keyframes anime2 {
+    from{
+        margin: 100%;
+        width: 300%;
+    }
+    to{
+        margin-right: 13%;
+        width: 1000%;
+    }
+}
 .container_image{
     border: solid black  2px ;
     background-color: #ffeeac;
