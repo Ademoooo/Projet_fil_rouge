@@ -139,7 +139,6 @@ nav ul li a{
     max-width: 1400px;
     height: 600px;;
     margin: auto;
-    border-top: 3px solid black;
     margin-top: 50px;
 }
 #blockPresentation{
@@ -161,6 +160,10 @@ nav ul li a{
 }
 #blockPresentationVisuel h3 {
     margin: 20px;
+}
+#contenuBlockPresentationVisuel{
+    display: flex;
+    flex-direction: column;
 }
 h3{
     font-size: 37px;
@@ -202,7 +205,8 @@ h3{
     margin-top: 50px;
     animation-duration: 3s;
     animation-name: anime2;
-   
+    padding-bottom: 50px;  
+    border-bottom: 2px black solid;
 }
 @keyframes anime2 {
     from{
